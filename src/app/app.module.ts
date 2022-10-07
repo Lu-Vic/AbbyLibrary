@@ -6,6 +6,7 @@ import { TopoComponent } from './topo/topo.component';
 import { HomeComponent } from './home/home.component';
 import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 import { ObrasComponent } from './obras/obras.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ObrasComponent } from './obras/obras.component';
     ObrasComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
